@@ -22,7 +22,7 @@ const reducer = (state = INIT_STATE, action) => {
   }
 }
 
-const API_NEWS = "http://34.125.224.223";
+const API_NEWS = "https://34.125.224.223";
 
 const NewsContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, INIT_STATE);

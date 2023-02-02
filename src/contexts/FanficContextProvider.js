@@ -28,7 +28,7 @@ function reducer(state = INIT_STATE, action) {
   }
 }
 
-const API = "http://34.125.224.223";
+const API = "https://34.125.224.223";
 
 const FanficContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, INIT_STATE);
