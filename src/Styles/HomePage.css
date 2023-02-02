@@ -1,0 +1,600 @@
+body {
+  background-color: #202020;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.homePage__container {
+  width: 55%;
+  margin: 0 0 0 17%;
+}
+.homePage__AllNews-FanfAnime {
+  width: 60%;
+  margin: 0;
+  display: flex;
+}
+
+.HomePage-BackgroundImg {
+  position: absolute;
+  width: 40%;
+  top: 3%;
+  right: 25px;
+  z-index: 0;
+}
+
+/* News */
+.News__container {
+  width: 55%;
+}
+
+.NewsTitle {
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newsTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #fcff62;
+}
+.newsLine {
+  width: 633px;
+  height: 1px;
+  background-color: #8f8f8f;
+}
+
+.newsContent {
+  position: relative;
+  width: 800px;
+  height: 325px;
+  display: flex;
+  background: #414141;
+}
+.NewsContent__items {
+  position: relative;
+  z-index: 5;
+  height: 325px;
+  width: 235px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.NewsContent__items:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.NewsContent__items:hover .news__episode-readButton {
+  opacity: 1;
+}
+
+.newsImg {
+  height: 325px;
+  width: 235px;
+  position: absolute;
+}
+.newEpisodes {
+  height: 100%;
+  width: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hotNews {
+  transform: rotate(-90deg);
+}
+.newsFireIcon {
+  position: absolute;
+  left: 25px;
+  width: 50px;
+  height: 50px;
+}
+.episodes-title {
+  font-family: "Inter";
+  font-style: normal;
+  width: 210px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #d2d2d2;
+}
+.news__episode-data {
+  position: relative;
+  top: 16px;
+  left: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.news__episode-title {
+  position: relative;
+  bottom: 50px;
+  left: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.news__episode-readButton {
+  width: 50%;
+  height: 30px;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  background-color: #808080;
+  color: black;
+  border-radius: 3rem;
+}
+.news__episode-readButton:active {
+  width: 55%;
+  background-color: #424242;
+}
+
+.news__episode-shadowTop {
+  width: 100%;
+  height: 100%;
+  bottom: 100%;
+  position: relative;
+  z-index: 2;
+  box-shadow: inset 0px 25px 25px 0px rgba(0, 0, 0, 0.9);
+}
+.news__episode-shadowBottom {
+  width: 100%;
+  height: 100%;
+  bottom: 200%;
+  position: relative;
+  z-index: 3;
+  box-shadow: inset 0px -70px 30px 1px rgba(0, 0, 0, 0.8);
+}
+
+/* All news container */
+
+.AllNewsMainTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.allNewsContainer {
+  width: 740px;
+  height: 825px;
+  background: #414141;
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+.allnewsData {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+.newsdata {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.allnewsDataLine {
+  height: 1px;
+  width: 640px;
+  background: #ffffff;
+  opacity: 0.5;
+}
+
+.allnewsContentCard {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.newsCardDesc {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.AllnewsTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.allnewsDesc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.AllnewsCardBottom {
+  display: flex;
+  justify-content: space-between;
+}
+.AllnewsReadButton {
+  background: #414141;
+  width: 110px;
+  height: 32px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  color: white;
+}
+
+.allnewsLikeComments {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 120px;
+}
+
+.allnewsCommentIcon,
+.Allnewslikeicon {
+  width: 15px;
+  height: 15px;
+}
+.AllnewsCommentCount,
+.allNewsLikeCount {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.AllnewsCommentCount {
+  margin-left: 10px;
+}
+
+/* news */
+
+.homePage_news-card {
+  background-color: #414141;
+  margin-top: 3%;
+  border-radius: 1rem;
+  height: 120%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.homePage_NewsMainTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 5%;
+  color: #ffffff;
+  margin-top: 2em;
+}
+
+.newsCard_hr,
+.newsCard-one {
+  width: 90%;
+  margin: 0 auto; color: #424242;
+  
+}
+.newsCard_hr{
+  width: 82.5%;
+  margin-top: 1em;
+  color: #424242;
+}
+.news-img
+ img {
+  width: 285px;
+  height: 340px;
+ }
+/* fancics */
+
+.hp_fanfics-Cont {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-fanfics-card {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.hp_fanfics{
+    width: 349px;
+    background: #414141;
+    border-radius: 10px;
+
+}
+
+.fanfic-read-btn{
+    
+    background: linear-gradient(90deg, #d9ae94,#ffcb69,#d08c60);
+border-radius: 20px;
+width: 115px;
+height: 39px;
+color:#FFFFFF;
+border-color:  #FFA41C;
+/* padding-left: 18px; */
+/* margin-left: 10px; */
+}
+.hp_fanfics-cont{
+
+  margin-top: 18px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hp_fanfecs-hesh,
+.hp_fandics-User,
+.hp_fandics-LikeCount,
+.hp_fandics-CommentCount {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-top: 12px;
+}
+.hp_fanfics-desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.hp_fanfics-mainImg {
+  width: 90%;
+  margin: 0 auto;
+  height: 300px;
+}
+.hp_fandics-CardBottom {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 28px;
+  align-items: center;
+  margin-top: 13px;
+  /* margin-bottom: 15px; */
+}
+.hp-fanfics-account {
+  display: flex;
+  align-items: center;
+}
+.hp_fandics-User {
+  margin-left: 5px;
+}
+.hp_fandics-accImg {
+  width: 28px;
+  height: 28px;
+}
+.hp_fandics-LikeComment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+.hp_fandics-User,
+.hp_fandics-LikeCount,
+.hp_fandics-CommentCount {
+  margin-top: 0;
+}
+
+/* anime */
+.hp_anime-cont {
+  margin: 25px 0 0 15px;
+}
+
+.hp_anime-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.hp_anime-card {
+  width: 284px;
+  height: 363px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.hp_animeImg {
+  position: relative;
+  z-index: 0;
+  object-fit: fill;
+  margin-top: 10px;
+}
+
+.hp_Anime-Content {
+  position: relative;
+  bottom: 120%;
+  z-index: 15;
+  height: 50px;
+  width: 90%;
+}
+
+.hp_Anime-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.hp_Anime-bottomItems {
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hp_Anime-subButton {
+  width: 50px;
+  height: 25px;
+  background: #676900;
+  border: 0px;
+  border-radius: 10px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+.hp_Anime-EpMinCont {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hp_Anime-EpMin {
+  width: 60px;
+  height: 25px;
+  background: #2d2d2d;
+  color: white;
+  border-radius: 10px;
+}
+
+.hp_Anime-shadowBottom {
+  width: 100%;
+  height: 100%;
+  bottom: 100%;
+  position: relative;
+  box-shadow: inset 0px -70px 30px 1px rgba(0, 0, 0, 0.8);
+}
+
+.FanficsAndAnime {
+  position: absolute;
+  top: 80%;
+  margin-left: 75%;
+}
+.F-A_HomePage {
+  top: 60%;
+}
+
+.MangaPageChainsawman {
+  position: absolute;
+  width: 25%;
+  left: 75%;
+  top: 5%;
+}
+
+.hp_fanfics-desc {
+  padding-left: 24px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.hp_fanfics {
+  width: 400px;
+}
+
+.profile-fanfics-card {
+  height: 800px;
+  width: 60%;
+}
+
+.hp_fanfics-data {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  padding-right: 10px;
+
+  color: #828282;
+}
+
+.hp_fandics-CardBottom {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.fanfic-read-btn {
+  margin-top: 28px;
+  margin-left: 10px;
+}
+
+.hp_fanfics {
+  background: #414141;
+  border-radius: 10px;
+  /* height: 600px; */
+}
+
+
+.modal-img {
+    width: 50px;
+}
+
+
+.fanfic-delete-btn {
+    width: 20px;
+    height: 20px;
+    padding-left: 86%;
+}
+
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium{
+
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: #FFFFFF;
+}
+
+.profile-inp{
+    height: 39%;
+}
+
+.btn-submit{
+    height: 135px;
+}

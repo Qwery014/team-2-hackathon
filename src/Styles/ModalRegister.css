@@ -1,0 +1,44 @@
+.logo-register {
+    width: 100%;
+}
+
+.MuiTypography-root.MuiTypography-h6.css-2ulfj5-MuiTypography-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register-label {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.register-inp {
+    height: 20px
+}
+
+.register-btn {
+    background: #AD4E4A;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 39px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.register-logo {
+    margin: 0 70px;
+}
+
+.register-h2 {
+    color: #FFFFFF;
+    margin-top: 10px;
+    font-size: 16px;
+
+}

@@ -1,0 +1,271 @@
+body {
+  position: relative;
+}
+
+.fanfic-main {
+  font-family: "Inter";
+  color: #FFF;
+  background-color: #414141;
+  box-sizing: border-box;
+  padding: 20px 40px 30px;
+  font-size: 20px;
+}
+
+.rebekka {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+.fanfic-main__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fanfic-main__head-left {
+  display: flex;
+  align-items: center;
+  margin-left: 3.5px;
+}
+
+.fanfic-main__back-btn {
+  cursor: pointer;
+}
+
+.fanfic-main__name,
+.fanfic-main__date {
+  color: #828282;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: default;
+}
+
+.fanfic-main__name {
+  margin-left: 30px;
+}
+
+.fanfic-main__content {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  line-height: 15px;
+  font-size: 14px;
+}
+
+
+.fanfic-main__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fanfic-main__user {
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+  z-index: 11;
+}
+
+.fanfic-main__like {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  z-index: 11;
+  padding-right: 2%;
+}
+
+.fanfic-main__like_counter {
+  color: #828282;
+  font-weight: 600;
+  margin-right: 7px;
+}
+
+.fanfic-main__icon_like {
+  background-color: transparent;
+  border: 0;
+
+  cursor: pointer;
+}
+
+
+
+/* add */
+
+.btn-add-chapter{
+  border: none;
+  margin: 0 auto;
+  position: relative;
+  width: 200px;
+  height: 73px;
+  padding: 0;
+  z-index: 2;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='868' width='2500' viewBox='0 0 726 252.17'%3E%3Cpath d='M483.92 0S481.38 24.71 466 40.11c-11.74 11.74-24.09 12.66-40.26 15.07-9.42 1.41-29.7 3.77-34.81-.79-2.37-2.11-3-21-3.22-27.62-.21-6.92-1.36-16.52-2.82-18-.75 3.06-2.49 11.53-3.09 13.61S378.49 34.3 378 36a85.13 85.13 0 0 0-30.09 0c-.46-1.67-3.17-11.48-3.77-13.56s-2.34-10.55-3.09-13.61c-1.45 1.45-2.61 11.05-2.82 18-.21 6.67-.84 25.51-3.22 27.62-5.11 4.56-25.38 2.2-34.8.79-16.16-2.47-28.51-3.39-40.21-15.13C244.57 24.71 242 0 242 0H0s69.52 22.74 97.52 68.59c16.56 27.11 14.14 58.49 9.92 74.73C170 140 221.46 140 273 158.57c69.23 24.93 83.2 76.19 90 93.6 6.77-17.41 20.75-68.67 90-93.6 51.54-18.56 103-18.59 165.56-15.25-4.21-16.24-6.63-47.62 9.93-74.73C656.43 22.74 726 0 726 0z'/%3E%3C/svg%3E") no-repeat 50% 50%;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='868' width='2500' viewBox='0 0 726 252.17'%3E%3Cpath d='M483.92 0S481.38 24.71 466 40.11c-11.74 11.74-24.09 12.66-40.26 15.07-9.42 1.41-29.7 3.77-34.81-.79-2.37-2.11-3-21-3.22-27.62-.21-6.92-1.36-16.52-2.82-18-.75 3.06-2.49 11.53-3.09 13.61S378.49 34.3 378 36a85.13 85.13 0 0 0-30.09 0c-.46-1.67-3.17-11.48-3.77-13.56s-2.34-10.55-3.09-13.61c-1.45 1.45-2.61 11.05-2.82 18-.21 6.67-.84 25.51-3.22 27.62-5.11 4.56-25.38 2.2-34.8.79-16.16-2.47-28.51-3.39-40.21-15.13C244.57 24.71 242 0 242 0H0s69.52 22.74 97.52 68.59c16.56 27.11 14.14 58.49 9.92 74.73C170 140 221.46 140 273 158.57c69.23 24.93 83.2 76.19 90 93.6 6.77-17.41 20.75-68.67 90-93.6 51.54-18.56 103-18.59 165.56-15.25-4.21-16.24-6.63-47.62 9.93-74.73C656.43 22.74 726 0 726 0z'/%3E%3C/svg%3E") no-repeat 50% 50%;
+  -webkit-mask-size: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  transform: translateY(8px)
+ }
+ 
+ .btn-add-chapter:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0px 0 0 0 white;
+  transition: all 2s ease;
+ }
+ 
+ .btn-add-chapter:hover:after {
+  box-shadow: 0px -13px 56px 12px #ffffffa6;
+ }
+ 
+ .btn-add-chapter span {
+  position: absolute;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 100;
+  left: 50%;
+  top: 39%;
+  letter-spacing: 3px;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  color: rgb(255, 255, 255);
+  transition: all 2s ease;
+ }
+ 
+ .btn-add-chapter:hover span {
+  color: rgb(68, 65, 65);
+ }
+ 
+ .btn-add-chapter:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease;
+ }
+ 
+ .btn-add-chapter:hover:before {
+  width: 100%;
+
+ }
+ 
+ 
+
+ .add-chapter, .add-chapter-text{
+  height: 50px;
+  margin-bottom: 20px;
+  background: linear-gradient(70deg, #5d7aff, #bb7bb2);
+  border-radius:20px;
+  padding:1%;
+  color:black
+}
+ 
+.inp-addComment{
+  background: linear-gradient(70deg, #9d9d9f, #ffff);
+  border-radius:20px;
+  width: 60%;
+  height:  20px;
+  padding:1%;
+  color:black
+}
+
+
+
+
+.btn-addComment {
+  --glow-color: rgb(150 148 153);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(94 6 179);
+    --btn-color: rgb(100, 61, 136);
+    border: 0.25em solid rgb(131 120 141);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em 0.25em var(--glow-color), 0 0 4em 1em rgb(0 0 0 / 78%), inset 0 0 0.75em 0.25em var(--glow-color);
+    text-shadow: 0 0 0.5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+ }
+ 
+ .btn-addComment::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: .7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+ }
+ 
+ .btn-addComment:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+         0 0 4em 2em var(--glow-spread-color),
+         inset 0 0 .75em .25em var(--glow-color);
+ }
+ 
+ .btn-addComment:active {
+  box-shadow: 0 0 0.6em .25em var(--glow-color),
+         0 0 2.5em 2em var(--glow-spread-color),
+         inset 0 0 .5em .25em var(--glow-color);
+ }
+
+
+ .HomePage-BackgroundImg {
+  position: absolute;
+  width: 34%;
+  top: 6%;
+  right: 25px;
+  z-index: -1;}
+
+ /* main fanfic page */
+
+
+ .container-Postlist{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ .hp_fanfics-Cont {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;}
+
+
+  .hp_fanfics-desc{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .hp_fanfics-data{
+    margin-top: 20px;
+  }
+
+  .hp_fanfecs-hesh, .hp_fandics-User, .hp_fandics-LikeCount, .hp_fandics-CommentCount{
+    margin-left: 30px;
+  }
+
+
+  .chap-inp{
+    width: 100%;
+  }

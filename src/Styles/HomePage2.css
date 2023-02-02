@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap');
+*{
+  margin-left: 0;
+  margin-right: 0;
+}
+body{
+  /* background-color: #242424; */
+  font-family: Inter;
+}
+
+.navbar{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #242424;
+height: 80px;
+}
+.navbar div{
+  display: flex;
+  
+}
+.navbar li {
+  list-style: none;
+}
+.navbar li input{
+border: 1px solid #242424;
+border-radius:25px;
+width: 150%;
+height: 3em;
+padding: 0 5em;
+position: relative;
+right: 45%;
+}
+input:focus{
+  outline: none;
+}
+.Navbar__logo{
+  margin-left: 3%;
+}
+.soc
+{
+  display: flex;
+justify-content: space-around;
+width: 9em;
+position: relative;
+right: 3em;
+}
+.setting{
+  display: flex;
+  justify-content: space-around;
+  width: 9em;
+  position: relative;
+  right:2em;
+}
+
+
+.saidbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+  width: 8.5em;
+  position: fixed;
+  top: 8em;
+  left: 1em;
+  align-items: center;
+  font-size: 13px;
+  
+}
+
+svg{
+  height: 34.6875px;
+  width: 35.625px;
+transition: 0.5s;
+
+}
+.novosty:hover{
+  fill:#FCFF62;
+
+
+}
+.News_hover:hover .strelka{
+left: 4em;
+}
+.strelka{
+  width: 125.11px;
+height: 35px;
+position: relative;
+right: 150px;
+text-align: center;
+display: flex;
+align-items: center;
+transition: 0.5s;
+}
+
+.setting {
+  width: 40px;
+  height: 40px
+}
+.logout {
+  margin-right: 20px;
+}
+.novosty{
+  position: absolute;
+  left: 50px;
+  color: white;
+}
+.manga:hover{
+  fill: #FF7171;
+}
+.Manga_hover:hover .strelka1{
+left: 5em;
+}
+.strelka1{
+  width: 125.11px;
+  height: 35px;
+  position: relative;
+  right: 150px;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
+.manga{
+  position: absolute;
+  left: 50px;
+  color: white;
+}
+
+.Fanfic:hover{
+  fill:rgb(5, 179, 5);
+}
+
+.Fanfic_hover:hover .strelka2{
+  left: 4em;
+}
+.strelka2{
+  width: 125.11px;
+  height: 35px;
+  position: relative;
+  right: 154px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.Fanfic{
+  position: absolute;
+  left: 50px;
+  color: white;
+}
+
+
+.Friends:hover{
+fill: rgb(0, 110, 255);
+}
+
+.Friends_hover:hover .strelka3{
+  left: 4em;
+}
+.strelka3{
+  width: 125.11px;
+  height: 35px;
+  position: relative;
+  right: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  transition: 0.5s; 
+}
+
+.Friends{
+  position: absolute;
+  left: 50px;
+  color: white;
+  transition: 0.5s;
+}
+
+.chat:hover{
+  fill: aqua;
+}
+.Chat_hover:hover .strelka4{
+  left: 5em;
+}
+.strelka4{
+  width: 125.11px;
+  height: 35px;
+  position: relative;
+  right: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  transition: 0.5s; 
+}
+.chat{
+  position: absolute;
+  left: 50px;
+  color: white;
+}
+.anime:hover{
+  fill: rgb(247, 3, 247);
+}
+.Anime_hover:hover .strelka5{
+  left: 5em;
+}
+.strelka5{
+  width: 125.11px;
+  height: 35px;
+  position: relative;
+  right: 150px;
+  display: flex;
+  align-items: center;
+  transition: 0.5s; 
+}
+.anime{
+  position: absolute;
+  left: 50px;
+  color: white;
+}
+.Profile:hover{
+fill: violet;
+}
+.Profile_hover:hover .strelka6{
+  left: 5em;
+}
+.strelka6{
+  width: 125.11px;
+  height: 35px;
+  position: relative;
+  right: 150px;
+  display: flex;
+  align-items: center;
+  transition: 0.5s; 
+}
+.Profile{
+  position: absolute;
+  left: 50px;
+  color: white;
+}
+
+.strelka_info{
+  text-align: center;
+}
+
+.error-auth{
+  font-size: 16px;
+  color: red;
+  width: 100%;
+}

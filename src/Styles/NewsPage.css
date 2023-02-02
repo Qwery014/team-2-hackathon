@@ -1,0 +1,48 @@
+.news-card {
+    min-height: 594px;
+    width: 45%;
+    margin: 0 auto;
+    background: #414141;
+border-radius: 10px;
+}
+
+.news-bg{
+    height: 59%;
+    width: 32%;
+    top: 21%;
+    right: -73px;
+    z-index: -1;
+}
+
+.newsCard-one{
+    padding-top: 20px;
+    min-height: 159px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.news-title {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+.news-body {
+    width: 50%;
+}
+
+.news-text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF; 
+margin-top: 20px;
+}
+
