@@ -51,16 +51,8 @@ const MangaContextProvider = ({ children }) => {
 
   async function getManga() {
     try {
-      const tokens = JSON.parse(localStorage.getItem("token"));
-      const Authorization = `Bearer ${tokens.access}`;
-      const config = {
-        headers: {
-          Authorization,
-        },
-      };
 
-
-      const { data } = await axios(`${API}/manga/${window.location.search}`, config);
+      const { data } = await axios(`${API}/manga/${window.location.search}`);
 
       dispatch({
         type: "GET_MANGAS",
