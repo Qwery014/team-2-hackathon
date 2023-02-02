@@ -1,0 +1,281 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap');
+
+.prof-page{
+margin: auto;
+
+}
+.newsTitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FC41D3;
+}
+.newsLine{
+    width: 633px;
+    height: 1px;
+    background-color: #8F8F8F;
+}
+.profile-container{
+    width: 55%;
+    margin: 42px auto;
+}
+
+
+.profile-card {
+    margin-top: 26px;
+    padding-top: 19px;
+    padding-bottom: 20px;
+    background: linear-gradient(90deg, #202020,#1e1a5f,#414141,#202020);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+
+
+.photo-upload {
+ 
+    margin-left: 40px;
+  
+    width: 191px;
+    height: 191px;
+    border-radius: 50% ;
+}
+
+
+
+.profile-username {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+}
+
+
+
+.addfanfic {
+    display: block;
+    margin: 19px auto;
+;
+    width: 160px;
+height: 48px;
+
+background: #3D83EC;
+border-radius: 25px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.MuiBox-root.css-3vruuw {
+    /* background: linear-gradient(209.8deg, rgba(0, 0, 0, 0) 3.14%, rgba(0, 0, 0, 0.6) 29.31%, #000000 97.93%); */
+    background: linear-gradient(209.8deg, rgba(0, 0, 0, 0) 3.14%, rgba(0, 0, 0, 0.6) 29.31%, #000000 97.93%), url('./ProfileImg/bg.png')  center  no-repeat;
+border: 1px solid #FFFFFF;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.profile-inp {
+    width: 100%;
+    height: 15%;
+    margin-top: 15px;
+}
+
+
+.btn-submit {
+    margin-top: 20px;
+    background: #AD4E4A;
+border-radius: 20px;
+width: 100%;
+height: 39px;
+color: #FFFFFF;
+}
+
+.MuiBox-root.css-1wnsr1i{
+    background: linear-gradient(209.8deg, rgba(0, 0, 0, 0) 3.14%, rgba(0, 0, 0, 0.6) 29.31%, #000000 97.93%), url('./ProfileImg/bg.png')  center  no-repeat;
+border: 1px solid #FFFFFF;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 290px;  
+}
+
+.profilePage-top{
+    top: 10%;
+    /* left: 50%; */
+    margin-left: 80%;
+}
+
+
+.hp_fanfics-mainImg{
+    margin-top: 22px;
+}
+
+
+.hp_fanfics{
+    min-height: 420px;
+}
+
+.profile-edit{
+    width: 49px;
+    height: 49px;
+}
+
+
+.css-1p5q5e5-MuiStack-root {
+   
+    width: 26%;
+    margin: 50px auto;
+    color: #ffffff;
+
+}
+
+.css-wjh20t-MuiPagination-ul{
+    background-color: #FFFFFF;
+    text-align: center;
+
+}
+
+.bio_container{
+    position: relative;
+    left: 5em;
+    bottom: 5vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bio_container span {
+    color: #FC41D3;
+    font-family: 'Inter';
+    font-size: 15px;
+}
+.bio_container p {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.modal{
+    display: flex;
+    /* width: 275px;*/
+     /* height: 270px; */
+    /* padding-top: 8em ;
+    padding-left: 6.5em; */
+    /* border-radius: 20px; */
+    border: 1px solid transparent;
+    /* filter: brightness(40%) */
+}
+
+
+
+.modal{
+    width: 400px;
+    height: 400px;
+    transform: translate(185%, 45%);
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+border: 1px solid transparent;
+box-shadow: 24;
+/* background-image: url("../../assets/Rectangle 36.png"); */
+filter: brightness(80%);
+z-index: -1;
+}
+
+
+
+
+
+
+
+
+.modal input {
+    padding: 0.8em;
+    margin: 1em;
+    width: 15vw;
+    border-radius: 10px;
+    border: 1px solid white;
+    /* text-align: center; */position: relative;
+
+
+}
+.modal .bioLogo{
+    position: relative;
+    left:3.8em;
+}
+.modal .Title{
+    position: relative;
+    left:7em;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: 700;
+
+}
+.modal .Title1{
+    position: relative;
+    left:4.5em;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: 700;
+    width: 53%;
+
+}
+
+.modal .button {
+    background-color: #AD4E4A;
+    border: 1px solid #AD4E4A;
+    border-radius: 20px;
+    position: relative;
+    left: 4.5em;
+   width: 200px;
+   color: #FFFFFF;
+   font-family: 'Inter';
+   font-weight: 700;
+font-size: 13px;
+transition: 0.5s;
+}
+
+
+.modal .button:hover{
+    background-color: #FFFFFF;
+    color: #AD4E4A;
+    border: 1px solid #ffff;
+}
+.info{
+    color: #FFFFFF;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1px;;
+position: relative;
+left: 1.2em;
+margin-top: 2em;
+}
+.info1{
+    color: #FFFFFF;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1px;;
+position: relative;
+left: 1.2em;
+margin-top: 1em;
+
+}

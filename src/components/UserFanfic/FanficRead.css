@@ -1,0 +1,93 @@
+.fanfic-page-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.fanficPage-fanficCard {
+    display: flex;
+}
+.fanficPage-fanficCard-desc {
+    color: beige;
+    margin-left: 50px;
+   
+}
+
+.addChapter-btn {
+    width: 200px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #f2e3e3,#f9f8fb,#e0d9f2);;
+}
+
+.chapterTitle {
+    background: linear-gradient(90deg,#202020,#333333,#000000,#202020,#202020);
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.fanficPage-top{
+    margin-left: 73%;
+    top: 15%;
+    z-index: -1;
+}
+
+
+.chapter{
+    background: #414141;
+    margin-top: 50px;
+    width: 80%;
+    min-height: 500px;
+    padding: 10%;
+    /* padding: 27px, 37px; */
+}
+
+
+.addChapter-hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fanficPage-fanficCard{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: auto;
+    height: 300px;
+}
+
+.FanficsAndAnime.F-A_HomePage.profilePage-top {
+    z-index: -1;
+}
+
+.profile-fanfics-card{
+    flex-wrap: wrap;
+}
+
+.chapter-text {
+    margin-top: 20px;
+    background: #414141;
+    color: #ffff;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.chapter-data{
+    margin-left: 90%;
+}
+.chapter-desc{
+    margin-right: 95%;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-size: 26px;
+}
+
+
